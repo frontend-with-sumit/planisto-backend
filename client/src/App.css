@@ -1,0 +1,192 @@
+/* utilities */
+.mt {
+  padding-top: 2rem !important;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+/* appbar */
+.appbar-title {
+  font-family: "Major Mono Display" !important;
+  font-size: 1.3rem !important;
+  font-weight: bold !important;
+  flex-grow: 1;
+}
+
+/* mid graphic */
+.mid {
+  height: calc(100vh - 6.5rem);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphic {
+  background: url("./assets/mid.png");
+  background-repeat: no-repeat;
+  height: 12rem;
+  width: 11rem;
+}
+
+/* Login form */
+.formParagraph {
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(45deg, #8e24aa 20%, #4a148c 90%);
+  height: 48;
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 10px 30px;
+  box-shadow: 0 3px 6px rgba(9, 11, 18, 0.18);
+  text-transform: capitalize;
+  margin-top: 3rem;
+}
+
+.btn:not(:disabled) {
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.8;
+}
+
+/* side strip */
+.strip {
+  height: 3rem;
+  width: 0.3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkbox {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+textarea {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-family: "Roboto";
+  letter-spacing: 1px;
+}
+
+.wordsLeft {
+  width: 100%;
+  color: #95afae;
+  font-size: 0.8rem;
+  display: inline-block;
+  padding-top: 0.2rem;
+}
+
+.clock {
+  height: 1em;
+  width: 1em;
+  font-size: 1.5rem;
+}
+
+/* sidebar */
+.sidebar-wrapper,
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar {
+  top: 6rem;
+}
+
+.sidebar-graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(./assets/sidebar.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 12rem;
+  width: 100%;
+}
+
+.camera {
+  background-color: white;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 2px 3px 6px rgba(9, 11, 18, 0.17);
+}
+
+.camera .camera-icon {
+  background-image: linear-gradient(45deg, #8e24aa 20%, #4a148c 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2rem;
+}
+
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(9, 11, 18, 0.05);
+}
+
+.image-box {
+  background: url(./assets/profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dialog */
+.dialog {
+  max-width: 28rem;
+  margin: 0px auto;
+}
