@@ -44,7 +44,7 @@ class Appbar extends Component {
               </IconButton>
             )}
             <Typography variant="h6" className="appbar-title">
-              Planist-o
+              Planisto
             </Typography>
             {isLoggedIn && currentLocation !== "/todos" && (
               <IconButton
