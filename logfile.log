@@ -1,0 +1,5 @@
+2020-05-31T04:18:01.522Z error: secretOrPrivateKey must have a value
+2020-05-31T06:12:13.386Z error: Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1
+2020-05-31T06:12:13.413Z error: Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1
+2020-05-31T06:14:22.155Z error: Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1
+2020-05-31T06:32:48.754Z error: Please upload files with .jpg, .jpeg, .png extensions only

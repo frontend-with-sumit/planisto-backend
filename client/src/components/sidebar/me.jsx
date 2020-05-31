@@ -34,11 +34,9 @@ class Me extends Form {
 
   doSubmit = async (e) => {
     e.preventDefault();
-    // save the user details and save to db
     await updateUserDetails(this.state.data);
     const { state } = this.props.location;
     window.location = state ? state.from.pathname : "/todos";
-    // this.props.history.replace("/todos");
   };
 
   render() {

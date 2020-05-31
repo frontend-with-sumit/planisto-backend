@@ -20,3 +20,203 @@ SyntaxError: Unexpected token 'if'
     at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
     at Module._compile (internal/modules/cjs/loader.js:955:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-05-31T07:02:37.984Z error: uncaughtException: Unexpected token '}'
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:53
+    index: { expires: }
+                      ^
+
+SyntaxError: Unexpected token '}'
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-05-31T07:02:41.280Z error: uncaughtException: val is not a non-empty string or a valid number. val=""
+Error: val is not a non-empty string or a valid number. val=""
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\node_modules\ms\index.js:34:9)
+    at Object.expires (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\utils.js:458:23)
+    at SchemaDate.SchemaType.index (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schematype.js:283:9)
+    at SchemaDate.SchemaType (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schematype.js:103:18)
+    at new SchemaDate (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schema\date.js:25:14)
+    at Schema.interpretAsType (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schema.js:992:10)
+    at Schema.path (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schema.js:681:27)
+    at Schema.add (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schema.js:520:14)
+    at new Schema (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\mongoose\lib\schema.js:130:10)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:18:20)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-05-31T07:18:41.778Z error: uncaughtException: createdOn is not defined
+ReferenceError: createdOn is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:52:14)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-05-31T07:18:55.855Z error: uncaughtException: create is not defined
+ReferenceError: create is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:52:23)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-05-31T07:36:09.714Z error: uncaughtException: now is not defined
+ReferenceError: now is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:53:23)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-05-31T07:36:11.400Z error: uncaughtException: Unexpected token '}'
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:53
+    index: { expires: Date/now() -  },
+                                    ^
+
+SyntaxError: Unexpected token '}'
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-05-31T07:36:14.517Z error: uncaughtException: now is not defined
+ReferenceError: now is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:53:23)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-05-31T07:36:19.084Z error: uncaughtException: now is not defined
+ReferenceError: now is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\models\todo.js:53:23)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:18)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-05-31T11:32:04.572Z error: uncaughtException: Cannot find module 'cors'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module 'cors'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:10:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-05-31T11:32:17.708Z error: uncaughtException: Cannot find module 'cors'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module 'cors'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:10:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)

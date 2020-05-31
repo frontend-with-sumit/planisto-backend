@@ -1,5 +1,5 @@
 const express = require("express");
-
+const cors = require("cors");
 const users = require("../routes/users");
 const auth = require("../routes/auth");
 const reset = require("../routes/reset");
@@ -10,6 +10,7 @@ const error = require("../middleware/error");
 
 module.exports = function (app) {
   app.use(express.json());
+  app.use(cors());
   app.use("/register", users);
   app.use("/auth", auth);
   app.use("/forgot-password", reset);

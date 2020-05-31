@@ -1,7 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Badge, Tooltip, IconButton, Avatar } from "@material-ui/core";
-
 import { apiUrl } from "../../config.json";
 import axios from "axios";
 
@@ -14,18 +13,17 @@ const useStyles = makeStyles({
   },
 });
 
-const fileSelectHandler = (event) => {
-  const selectedFile = event.target.files[0];
-  const formData = new FormData();
-  formData.append("myFile", selectedFile, selectedFile.name);
-
-  axios.put(`${apiUrl}/register/upload`, formData, {}).then((res) => {
-    window.location.reload();
-  });
-};
-
 const UserBadge = ({ alt, imgSrc }) => {
   const classes = useStyles();
+  const fileSelectHandler = (event) => {
+    const selectedFile = event.target.files[0];
+    const formData = new FormData();
+    formData.append("myFile", selectedFile, selectedFile.name);
+
+    axios
+      .put(`${apiUrl}/register/upload`, formData, {})
+      .then(window.location.reload());
+  };
 
   return (
     <Badge

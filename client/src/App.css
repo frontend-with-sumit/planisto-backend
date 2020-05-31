@@ -7,6 +7,10 @@
   margin-bottom: 2rem;
 }
 
+textarea,
+.btn {
+  outline-color: #7b1fa2;
+}
 /* appbar */
 .appbar-title {
   font-family: "Major Mono Display" !important;
