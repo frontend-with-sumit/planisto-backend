@@ -43,7 +43,7 @@ userSchema.methods.generateAuthToken = function () {
       name: `${this.firstName} ${this.lastName}`,
       country: this.country,
     },
-    config.get("PRIVATE_KEY")
+    config.get("privateKey")
   );
 };
 
