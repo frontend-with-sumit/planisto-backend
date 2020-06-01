@@ -17,7 +17,7 @@ function transport(fileName) {
     : new winston.transports.File({ filename: `${fileName}.log` });
 }
 
-if (process.env.NODE_ENV === "production") customLogger.remove(transport());
+if (process.env.NODE_ENV !== "development") customLogger.remove(transport());
 
 module.exports.logger = customLogger;
 module.exports.transport = transport;

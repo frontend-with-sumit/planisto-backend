@@ -12,5 +12,5 @@ require("./startup/config")();
 require("./services/scheduler")();
 
 // PORT setting
-const port = config.get("PORT");
+const port = process.env.PORT || config.get("PORT");
 app.listen(port, () => logger.log("info", `Listening on port ${port}`));
