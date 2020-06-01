@@ -1,6 +1,5 @@
 {
   "PRIVATE_KEY": "",
-  "AWS_ACCESS_KEY_ID": "",
-  "AWS_SECRET_KEY_ID": "",
-  "BUCKET_NAME": ""
+  "MONGODB_URI": "mongodb://localhost:27017/todoDb",
+  "PORT": "3900"
 }

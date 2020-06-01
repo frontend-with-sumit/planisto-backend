@@ -10,7 +10,6 @@ const error = require("../middleware/error");
 
 module.exports = function (app) {
   app.use(express.json());
-  app.use(cors());
   app.use("/register", users);
   app.use("/auth", auth);
   app.use("/forgot-password", reset);

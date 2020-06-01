@@ -1,11 +1,14 @@
 const mongoose = require("mongoose");
+const config = require("config");
+const { logger } = require("../services/logger");
 
 module.exports = function () {
+  const db = config.get("MONGODB_URI");
   mongoose
-    .connect(process.env.MONGODB_URI || "mongodb://localhost:27017/todoDb", {
+    .connect(db, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then(() => console.log("Connected to DB...."))
-    .catch(() => console.log("Couldn't connect to DB...."));
+    .then(() => logger.info("Connected to DB...."))
+    .catch(() => logger.info("Couldn't connect to DB...."));
 };

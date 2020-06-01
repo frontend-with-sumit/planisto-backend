@@ -1,3 +1,4 @@
+const { logger } = require("../services/logger");
 const bcrypt = require("bcrypt");
 const express = require("express");
 const router = express.Router();
@@ -24,7 +25,7 @@ router.put("/", async (req, res) => {
       await user.save();
       res.send(user);
     } catch (ex) {
-      console.log("Error", ex);
+      logger.error(ex);
     }
   } else {
     res.status(400).send("Passwords didn't match");

@@ -1,4 +1,5 @@
 const config = require("config");
+const { logger } = require("../services/logger");
 
 module.exports = function () {
   if (
@@ -7,7 +8,7 @@ module.exports = function () {
     !config.get("AWS_SECRET_KEY_ID") &&
     !config.get("BUCKET_NAME")
   ) {
-    console.log("FATAL ERROR: Access keys are not provided");
+    logger.error("FATAL ERROR: Access keys are not provided");
     process.exit(1);
   }
 };

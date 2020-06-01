@@ -47,11 +47,6 @@ const todoSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
-  expireAt: {
-    type: Date,
-    default: Date.now,
-    index: { expires: Date.now() - 300000 },
-  },
 });
 
 const Todo = mongoose.model("Todo", todoSchema);

@@ -1,6 +1,3 @@
 {
-  "PRIVATE_KEY": "todoKey",
-  "AWS_ACCESS_KEY_ID": "accessKey",
-  "AWS_SECRET_KEY_ID": "secretKey",
-  "BUCKET_NAME": "bucketName"
+  "PRIVATE_KEY": "todoKey"
 }
