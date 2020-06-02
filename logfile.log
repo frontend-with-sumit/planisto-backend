@@ -78,3 +78,137 @@
 2020-06-02T09:03:10.264Z info: Connected to DB....
 2020-06-02T09:03:16.690Z info: Listening on port 3900
 2020-06-02T09:03:16.747Z info: Connected to DB
+2020-06-02T10:03:25.260Z info: Listening on port 3900
+2020-06-02T10:03:25.321Z info: Connected to DB
+2020-06-02T10:03:38.404Z info: Listening on port 3900
+2020-06-02T10:03:38.458Z info: Connected to DB
+2020-06-02T10:03:51.222Z info: Listening on port 3900
+2020-06-02T10:03:51.271Z info: Connected to DB
+2020-06-02T10:04:04.138Z info: Listening on port 3900
+2020-06-02T10:04:04.188Z info: Connected to DB
+2020-06-02T10:04:24.200Z info: Listening on port 3900
+2020-06-02T10:04:24.264Z info: Connected to DB
+2020-06-02T10:04:46.854Z info: Listening on port 3900
+2020-06-02T10:04:46.909Z info: Connected to DB
+2020-06-02T10:04:49.651Z info: Listening on port 3900
+2020-06-02T10:04:49.702Z info: Connected to DB
+2020-06-02T10:04:55.904Z info: Listening on port 3900
+2020-06-02T10:04:55.987Z info: Connected to DB
+2020-06-02T10:05:04.258Z info: Listening on port 3900
+2020-06-02T10:05:04.321Z info: Connected to DB
+2020-06-02T10:11:30.967Z info: Listening on port 3900
+2020-06-02T10:11:31.038Z info: Connected to DB
+2020-06-02T10:11:33.441Z info: Listening on port 3900
+2020-06-02T10:11:33.511Z info: Connected to DB
+2020-06-02T10:12:07.473Z info: Listening on port 3900
+2020-06-02T10:12:07.555Z info: Connected to DB
+2020-06-02T10:13:18.599Z info: Listening on port 3900
+2020-06-02T10:13:18.639Z info: Connected to DB
+2020-06-02T10:15:02.501Z info: Listening on port 3900
+2020-06-02T10:15:02.550Z info: Connected to DB
+2020-06-02T10:21:41.303Z info: Listening on port 3900
+2020-06-02T10:21:41.361Z info: Connected to DB
+2020-06-02T10:22:57.007Z info: Listening on port 3900
+2020-06-02T10:22:57.079Z info: Connected to DB
+2020-06-02T10:23:29.234Z info: Listening on port 3900
+2020-06-02T10:23:29.287Z info: Connected to DB
+2020-06-02T10:23:32.497Z info: Listening on port 3900
+2020-06-02T10:23:32.570Z info: Connected to DB
+2020-06-02T10:23:36.436Z info: Listening on port 3900
+2020-06-02T10:23:36.497Z info: Connected to DB
+2020-06-02T10:24:09.958Z info: Listening on port 3900
+2020-06-02T10:24:10.027Z info: Connected to DB
+2020-06-02T10:25:34.414Z info: Listening on port 3900
+2020-06-02T10:25:34.507Z info: Connected to DB
+2020-06-02T10:25:37.729Z info: Listening on port 3900
+2020-06-02T10:25:37.795Z info: Connected to DB
+2020-06-02T10:28:09.862Z info: Listening on port 3900
+2020-06-02T10:28:09.918Z info: Connected to DB
+2020-06-02T10:28:24.372Z info: Listening on port 3900
+2020-06-02T10:28:24.448Z info: Connected to DB
+2020-06-02T10:28:31.446Z info: Listening on port 3900
+2020-06-02T10:28:31.541Z info: Connected to DB
+2020-06-02T10:31:17.819Z info: Listening on port 3900
+2020-06-02T10:31:17.885Z info: Connected to DB
+2020-06-02T10:31:21.288Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+2020-06-02T10:32:09.944Z info: Listening on port 3900
+2020-06-02T10:32:10.008Z info: Connected to DB
+2020-06-02T10:32:16.819Z info: Listening on port 3900
+2020-06-02T10:32:16.893Z info: Connected to DB
+2020-06-02T10:32:45.108Z info: Listening on port 3900
+2020-06-02T10:32:45.158Z info: Connected to DB
+2020-06-02T10:32:48.585Z info: Listening on port 3900
+2020-06-02T10:32:48.636Z info: Connected to DB
+2020-06-02T10:37:09.531Z info: Listening on port 3900
+2020-06-02T10:37:09.587Z info: Connected to DB
+2020-06-02T10:41:46.559Z info: Listening on port 3900
+2020-06-02T10:41:46.655Z info: Connected to DB
+2020-06-02T10:42:06.415Z info: Listening on port 3900
+2020-06-02T10:42:06.513Z info: Connected to DB
+2020-06-02T10:42:11.126Z info: Listening on port 3900
+2020-06-02T10:42:11.187Z info: Connected to DB
+2020-06-02T10:42:22.588Z info: Listening on port 3900
+2020-06-02T10:42:22.634Z info: Connected to DB
+2020-06-02T10:42:35.720Z info: Listening on port 3900
+2020-06-02T10:42:35.824Z info: Connected to DB
+2020-06-02T10:42:38.286Z info: Listening on port 3900
+2020-06-02T10:42:38.336Z info: Connected to DB
+2020-06-02T10:42:44.773Z info: Listening on port 3900
+2020-06-02T10:42:44.832Z info: Connected to DB
+2020-06-02T10:42:50.391Z info: Listening on port 3900
+2020-06-02T10:42:50.506Z info: Connected to DB
+2020-06-02T10:48:07.889Z info: Listening on port 3900
+2020-06-02T10:48:07.958Z info: Connected to DB
+2020-06-02T10:51:56.538Z info: Listening on port 3900
+2020-06-02T10:51:56.597Z info: Connected to DB
+2020-06-02T10:58:40.241Z info: Listening on port 3900
+2020-06-02T10:58:40.290Z info: Connected to DB
+2020-06-02T10:58:43.055Z info: Listening on port 3900
+2020-06-02T10:58:43.105Z info: Connected to DB
+2020-06-02T10:58:50.050Z info: Listening on port 3900
+2020-06-02T10:58:50.089Z info: Connected to DB
+2020-06-02T11:01:58.349Z info: Listening on port 3900
+2020-06-02T11:01:58.396Z info: Connected to DB
+2020-06-02T11:06:40.995Z info: Listening on port 3900
+2020-06-02T11:06:41.084Z info: Connected to DB
+2020-06-02T11:06:51.789Z info: Listening on port 3900
+2020-06-02T11:06:51.827Z info: Connected to DB
+2020-06-02T11:07:11.954Z info: Listening on port 3900
+2020-06-02T11:07:12.009Z info: Connected to DB
+2020-06-02T11:07:32.030Z info: Listening on port 3900
+2020-06-02T11:07:32.089Z info: Connected to DB
+2020-06-02T11:07:38.281Z info: Listening on port 3900
+2020-06-02T11:07:38.327Z info: Connected to DB
+2020-06-02T11:07:42.881Z info: Listening on port 3900
+2020-06-02T11:07:42.918Z info: Connected to DB
+2020-06-02T11:07:52.514Z info: Listening on port 3900
+2020-06-02T11:07:52.565Z info: Connected to DB
+2020-06-02T11:07:58.140Z info: Listening on port 3900
+2020-06-02T11:07:58.237Z info: Connected to DB
+2020-06-02T11:08:02.259Z info: Listening on port 3900
+2020-06-02T11:08:02.309Z info: Connected to DB
+2020-06-02T11:08:12.800Z info: Listening on port 3900
+2020-06-02T11:08:12.858Z info: Connected to DB
+2020-06-02T11:08:15.916Z info: Listening on port 3900
+2020-06-02T11:08:16.012Z info: Connected to DB
+2020-06-02T11:10:42.498Z info: Listening on port 3900
+2020-06-02T11:10:42.568Z info: Connected to DB
+2020-06-02T11:17:30.480Z info: Listening on port 3900
+2020-06-02T11:17:30.521Z info: Connected to DB
+2020-06-02T11:18:04.221Z info: Listening on port 3900
+2020-06-02T11:18:04.265Z info: Connected to DB
+2020-06-02T11:18:24.025Z info: Listening on port 3900
+2020-06-02T11:18:24.069Z info: Connected to DB
+2020-06-02T11:18:44.042Z info: Listening on port 3900
+2020-06-02T11:18:44.081Z info: Connected to DB
+2020-06-02T11:18:48.767Z info: Listening on port 3900
+2020-06-02T11:18:48.826Z info: Connected to DB
+2020-06-02T11:19:50.306Z info: Listening on port 3900
+2020-06-02T11:19:50.360Z info: Connected to DB
+2020-06-02T11:19:57.088Z info: Listening on port 3900
+2020-06-02T11:19:57.146Z info: Connected to DB
+2020-06-02T11:20:19.510Z info: Listening on port 3900
+2020-06-02T11:20:19.555Z info: Connected to DB
