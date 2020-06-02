@@ -9,6 +9,6 @@ module.exports = function () {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
-    .then(() => logger.info("Connected to DB...."))
-    .catch((err) => logger.info(err));
+    .then(() => logger.info("Connected to DB"))
+    .catch((err) => logger.info("Couldn't connect to DB"));
 };
