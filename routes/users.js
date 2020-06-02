@@ -1,6 +1,6 @@
 const _ = require("lodash");
 const bcrypt = require("bcrypt");
-
+const config = require("config");
 const FileType = require("file-type");
 
 const path = require("path");
@@ -20,7 +20,7 @@ router.put("/upload", upload, auth, async (req, res) => {
 
   const uploadFile = await s3
     .upload({
-      Bucket: process.env.BUCKET_NAME,
+      Bucket: config.get("bucketName"),
       Key: keyName,
       Body: req.file.buffer,
       ACL: "public-read",

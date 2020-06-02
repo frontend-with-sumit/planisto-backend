@@ -9,6 +9,6 @@ const upload = multer({
 
     cb(undefined, true);
   },
-}).single("myFile");
+}).single("file");
 
 module.exports = upload;

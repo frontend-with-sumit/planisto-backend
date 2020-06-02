@@ -1,4 +1,7 @@
 {
   "privateKey": "ACCESS_KEY",
+  "accessKey": "AWS_ACCESS_KEY_ID",
+  "secretKey": "AWS_SECRET_KEY_ID",
+  "bucketName": "BUCKET_NAME",
   "db": "MONGODB_URI"
 }

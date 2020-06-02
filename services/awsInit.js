@@ -1,8 +1,9 @@
 const AWS = require("aws-sdk");
+const config = require("config");
 
 const s3 = new AWS.S3({
-  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-  secretAccessKey: process.env.AWS_SECRET_KEY_ID,
+  accessKeyId: config.get("accessKey"),
+  secretAccessKey: config.get("secretKey"),
 });
 
 module.exports.s3 = s3;

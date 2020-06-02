@@ -1,5 +1,8 @@
 {
   "privateKey": "unsecureKey",
+  "accessKey": "",
+  "secretKey": "",
+  "bucketName": "",
   "db": "mongodb://localhost:27017/todoDb",
   "PORT": "3900"
 }
