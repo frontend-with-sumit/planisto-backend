@@ -10,5 +10,5 @@ module.exports = function () {
       useUnifiedTopology: true,
     })
     .then(() => logger.info("Connected to DB...."))
-    .catch(() => logger.info("Couldn't connect to DB...."));
+    .catch((err) => logger.info(err));
 };
