@@ -1,4 +1,4 @@
 {
-  "privateKey": "todoKey",
+  "privateKey": "ACCESS_KEY",
   "db": "MONGODB_URI"
 }
