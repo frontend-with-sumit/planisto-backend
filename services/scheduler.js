@@ -1,4 +1,5 @@
 const cron = require("node-cron");
+const { logger } = require("./logger");
 const { Todo } = require("../models/todo");
 
 function formatDate() {
@@ -22,6 +23,6 @@ module.exports = function () {
     await Todo.deleteMany({
       createdOn: { $lte: formatDate() },
     });
-    console.log("Schedule maintenance completed");
+    logger.info("Schedule maintenance completed");
   });
 };
