@@ -394,3 +394,28 @@
 2020-06-03T08:34:30.695Z info: Connected to DB
 2020-06-03T08:34:33.563Z info: Listening on port 3900
 2020-06-03T08:34:33.605Z info: Connected to DB
+2020-06-03T10:19:29.361Z error: Expected uri parameter to have length >= 1, but found "" for params.Bucket
+2020-06-03T10:21:15.564Z error: Expected uri parameter to have length >= 1, but found "" for params.Bucket
+2020-06-03T10:22:49.603Z info: Listening on port 3900
+2020-06-03T10:22:49.674Z info: Connected to DB
+2020-06-03T10:22:53.187Z info: Listening on port 3900
+2020-06-03T10:22:53.227Z info: Connected to DB
+2020-06-03T10:23:46.459Z error: Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1
+2020-06-03T10:24:03.160Z info: Listening on port 3900
+2020-06-03T10:24:03.284Z info: Connected to DB
+2020-06-03T10:24:14.445Z info: Listening on port 3900
+2020-06-03T10:24:14.513Z info: Connected to DB
+2020-06-03T10:24:20.819Z info: Listening on port 3900
+2020-06-03T10:24:20.890Z info: Connected to DB
+2020-06-03T10:37:46.500Z info: Listening on port 3900
+2020-06-03T10:37:46.575Z info: Connected to DB
+2020-06-03T10:37:58.865Z info: Listening on port 3900
+2020-06-03T10:37:58.931Z info: Connected to DB
+2020-06-03T10:47:37.188Z info: Listening on port 3900
+2020-06-03T10:47:37.238Z info: Connected to DB
+2020-06-03T10:47:45.106Z info: Listening on port 3900
+2020-06-03T10:47:45.246Z info: Connected to DB
+2020-06-03T10:50:18.659Z info: Listening on port 3900
+2020-06-03T10:50:18.703Z info: Connected to DB
+2020-06-03T10:50:22.574Z info: Listening on port 3900
+2020-06-03T10:50:22.615Z info: Connected to DB
