@@ -1,8 +1,8 @@
 {
   "privateKey": "unsecureKey",
-  "accessKey": "AKIAIWGNI22LBFI32XVQ",
-  "secretKey": "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",
-  "bucketName": "post-profilepics",
+  "accessKey": "",
+  "secretKey": "",
+  "bucketName": "",
   "db": "mongodb://localhost:27017/todoDb",
   "PORT": "3900"
 }
