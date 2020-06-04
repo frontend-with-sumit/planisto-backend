@@ -1,4 +1,4 @@
-const cron = require("node-cron");
+const schedule = require("node-schedule");
 const { logger } = require("./logger");
 const { Todo } = require("../models/todo");
 
@@ -19,10 +19,15 @@ function formatDate() {
 }
 
 module.exports = function () {
-  cron.schedule("* 59 23 * * *", async () => {
+  const rule = new schedule.RecurrenceRule();
+  rule.dayOfWeek = new schedule.Range(0, 6);
+  rule.hour = 23;
+  rule.minute = 59;
+
+  schedule.scheduleJob(rule, async () => {
     await Todo.deleteMany({
       createdOn: { $lte: formatDate() },
     });
-    logger.info("Schedule maintenance completed");
+    logger.info("Scheduled maintenance completed");
   });
 };
