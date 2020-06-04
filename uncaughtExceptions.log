@@ -1761,3 +1761,19 @@ SyntaxError: Unexpected token ')'
     at Function.Module._load (internal/modules/cjs/loader.js:723:14)
     at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
     at internal/main/run_main_module.js:17:11
+2020-06-04T06:29:17.555Z error: uncaughtException: Invalid or unexpected token
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\users.js:24
+      Bucket: config.get("bucketName,
+                         ^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)

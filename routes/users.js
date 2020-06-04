@@ -20,7 +20,7 @@ router.put("/upload", upload, auth, async (req, res) => {
 
   const uploadFile = await s3
     .upload({
-      Bucket: config.get("bucketName"),
+      Bucket: process.env.BUCKET_NAME,
       Key: keyName,
       Body: req.file.buffer,
       ACL: "public-read",
@@ -28,7 +28,6 @@ router.put("/upload", upload, auth, async (req, res) => {
       ContentType: fileType.mime.toString(),
     })
     .promise();
-
   const user = await User.findById(req.user._id);
   user.profilePic = uploadFile.Location;
   await user.save();
