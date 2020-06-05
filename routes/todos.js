@@ -91,9 +91,7 @@ router.put("/:id", async (req, res) => {
 });
 
 router.delete("/:id", async (req, res) => {
-  const todo = await Todo.findOneAndDelete(req.params.id, {
-    useFindAndModify: false,
-  });
+  const todo = await Todo.findByIdAndRemove(req.params.id);
 
   if (!todo)
     return res.status(404).send("The todo with the given ID was not found.");
