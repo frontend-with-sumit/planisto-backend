@@ -19,11 +19,11 @@ function formatDate() {
 }
 
 module.exports = function () {
-  const rule = new schedule.RecurrenceRule();
+  // const rule = new schedule.RecurrenceRule();
   // rule.hour = 11;
-  rule.second = 30;
+  // rule.second = 30;
 
-  schedule.scheduleJob(rule, async () => {
+  schedule.scheduleJob({ hour: 9, minute: 27 }, async () => {
     await Todo.deleteMany({
       createdOn: { $lte: formatDate() },
     });
