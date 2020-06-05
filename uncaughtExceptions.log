@@ -803,3 +803,131 @@ ReferenceError: alert is not defined
     at Timeout._onTimeout (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\node-schedule\lib\schedule.js:510:7)
     at listOnTimeout (internal/timers.js:531:17)
     at processTimers (internal/timers.js:475:7)
+2020-06-05T14:50:29.839Z error: uncaughtException: Missing initializer in const declaration
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2
+const popuo
+      ^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:12:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T14:50:38.180Z error: uncaughtException: Missing initializer in const declaration
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2
+const popupS
+      ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:12:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T14:50:47.098Z error: uncaughtException: document is not defined
+ReferenceError: document is not defined
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:29:26
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:6:26
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:11:2)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T14:51:08.848Z error: uncaughtException: document is not defined
+ReferenceError: document is not defined
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:29:26
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:6:26
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:11:2)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T14:51:19.070Z error: uncaughtException: document is not defined
+ReferenceError: document is not defined
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:29:26
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:6:26
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:11:2)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T14:51:27.883Z error: uncaughtException: document is not defined
+ReferenceError: document is not defined
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:29:26
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:6:26
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:11:2)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T14:52:11.349Z error: uncaughtException: document is not defined
+ReferenceError: document is not defined
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:29:26
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:6:26
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\popups\dist\popupS.js:11:2)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:2:16)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
