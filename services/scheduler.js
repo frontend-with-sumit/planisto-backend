@@ -24,7 +24,7 @@ module.exports = function () {
   rule.minute = 30;
 
   schedule.scheduleJob(rule, async () => {
-    await Todo.deleteMany({
+    await Todo.remove({
       createdOn: { $lte: formatDate() },
     });
     logger.info("Scheduled maintenance completed");
