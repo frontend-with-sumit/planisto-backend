@@ -20,9 +20,8 @@ function formatDate() {
 
 module.exports = function () {
   const rule = new schedule.RecurrenceRule();
-  rule.dayOfWeek = new schedule.Range(0, 6);
   rule.hour = 11;
-  rule.minute = 0;
+  rule.minute = 30;
 
   schedule.scheduleJob(rule, async () => {
     await Todo.deleteMany({
