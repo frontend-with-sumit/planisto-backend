@@ -1,0 +1,769 @@
+2020-06-05T07:00:40.308Z error: uncaughtException: Cannot find module './startup/validation'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module './startup/validation'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:13:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T07:00:46.909Z error: uncaughtException: Cannot find module './startup/validation'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module './startup/validation'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:13:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T07:09:44.868Z error: uncaughtException: Missing initializer in destructuring declaration
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:8
+const {validate}
+      ^^^^^^^^^^
+
+SyntaxError: Missing initializer in destructuring declaration
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-06-05T07:09:53.928Z error: uncaughtException: Cannot find module './'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module './'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-06-05T07:10:13.550Z error: uncaughtException: Cannot find module '../middleware/'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../middleware/'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:8:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-06-05T07:10:44.850Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:11:21.640Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:11:31.466Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:11:45.098Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:11:59.961Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:12:30.062Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:12:36.012Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:13:50.590Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:13:55.234Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:14:22.436Z error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\todos.js:16:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T07:15:57.963Z error: uncaughtException: Unexpected token 'const'
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\categories.js:6
+const { User } = require("../models/user");
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:6:20)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-06-05T07:16:17.052Z error: uncaughtException: Cannot find module '../middleware/'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\categories.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../middleware/'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\categories.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\categories.js:5:26)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:6:20)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-06-05T07:19:56.368Z error: uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\users.js:13:19)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-06-05T07:19:58.383Z error: uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\users.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-06-05T07:20:04.094Z error: uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\users.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-06-05T07:20:12.654Z error: uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\users.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+2020-06-05T07:31:22.638Z error: uncaughtException: Missing initializer in const declaration
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:9
+const uploads
+      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+2020-06-05T08:01:01.040Z error: uncaughtException: uploads is not defined
+ReferenceError: uploads is not defined
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:19:24)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:01:10.932Z error: uncaughtException: The "id" argument must be of type string. Received type undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Module.require (internal/modules/cjs/loader.js:841:3)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:9:17)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+2020-06-05T08:01:22.343Z error: uncaughtException: app is not defined
+ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\uploads.js:10:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:9:17)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-06-05T08:01:50.685Z error: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\uploads.js:10:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:9:17)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-06-05T08:02:30.040Z error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:217:7)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:20:7)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:02:47.310Z error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:217:7)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:20:7)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:03:27.859Z error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:217:7)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:19:7)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:10:56.518Z error: uncaughtException: me is not defined
+ReferenceError: me is not defined
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:19:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:11:15.085Z error: uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\me.js:7:19)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:10:12)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-06-05T08:11:26.391Z error: uncaughtException: auth is not defined
+ReferenceError: auth is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\me.js:8:19)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:10:12)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+2020-06-05T08:11:33.635Z error: uncaughtException: Route.get() requires a callback function but got a [object Object]
+Error: Route.get() requires a callback function but got a [object Object]
+    at Route.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\routes\me.js:8:8)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:10:12)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+2020-06-05T08:11:42.959Z error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:217:7)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:20:7)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:12:31.923Z error: uncaughtException: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-06-05T08:12:34.464Z error: uncaughtException: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-06-05T08:13:03.625Z error: uncaughtException: users is not defined
+ReferenceError: users is not defined
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:22:24)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:15:18.595Z error: uncaughtException: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-06-05T08:15:56.430Z error: uncaughtException: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-06-05T08:16:01.782Z error: uncaughtException: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+Error: Cannot find module '../routes/users'
+Require stack:
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js
+- C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:3:15)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+2020-06-05T08:19:12.803Z error: uncaughtException: me is not defined
+ReferenceError: me is not defined
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:20:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:19:15.243Z error: uncaughtException: Identifier 'uploads' has already been declared
+C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:10
+const uploads = require("../routes/uploads");
+      ^
+
+SyntaxError: Identifier 'uploads' has already been declared
+    at Module._compile (internal/modules/cjs/loader.js:891:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+2020-06-05T08:19:23.146Z error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:217:7)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:21:7)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T08:19:26.415Z error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\express\lib\application.js:217:7)
+    at module.exports (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:21:7)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:28)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11
+2020-06-05T09:33:56.279Z error: uncaughtException: err is not defined
+ReferenceError: err is not defined
+    at Request._callback (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:36:65)
+    at self.callback (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.onRequestError (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:223:5)
+    at ClientRequest.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:223:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+2020-06-05T09:57:49.866Z error: uncaughtException: ad is not defined
+ReferenceError: ad is not defined
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\startup\routes.js:45:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\Dumbo\Desktop\Node\todo-app\backend\index.js:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10)
+    at internal/main/run_main_module.js:17:11

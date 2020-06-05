@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 
 const auth = require("../middleware/auth");
+const validateObjectId = require("../middleware/validateObjectId");
+
 const { User } = require("../models/user");
 const { Category } = require("../models/category");
 const { Todo, validateTodo } = require("../models/todo");
@@ -12,7 +14,7 @@ router.get("/", auth, async (req, res) => {
   res.send(todos);
 });
 
-router.get("/:id", auth, async (req, res) => {
+router.get("/:id", [auth, validateObjectId], async (req, res) => {
   const todos = await Todo.findById(req.params.id);
 
   if (!todos) return res.status(404).send("Todo doesn't exist");
@@ -62,7 +64,7 @@ router.post("/", auth, async (req, res) => {
   res.send(newTodo);
 });
 
-router.put("/:id", async (req, res) => {
+router.put("/:id", [auth, validateObjectId], async (req, res) => {
   const { title, description, categoryId, createdOn, todoAt } = req.body;
 
   const { error } = validateTodo(req.body);
@@ -90,7 +92,7 @@ router.put("/:id", async (req, res) => {
   res.send(todo);
 });
 
-router.delete("/:id", async (req, res) => {
+router.delete("/:id", [auth, validateObjectId], async (req, res) => {
   const todo = await Todo.findByIdAndRemove(req.params.id);
 
   if (!todo)

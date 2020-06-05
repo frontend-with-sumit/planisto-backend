@@ -6,6 +6,8 @@ const reset = require("../routes/reset");
 const categories = require("../routes/categories");
 const feedbacks = require("../routes/feedbacks");
 const todos = require("../routes/todos");
+const uploads = require("../routes/uploads");
+const me = require("../routes/me");
 const error = require("../middleware/error");
 
 module.exports = function (app) {
@@ -15,6 +17,8 @@ module.exports = function (app) {
   });
 
   app.use(express.json());
+  app.use("/upload", uploads);
+  app.use("/me", me);
   app.use("/register", users);
   app.use("/auth", auth);
   app.use("/forgot-password", reset);

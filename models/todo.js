@@ -57,7 +57,7 @@ function validateTodo(todo) {
     description: Joi.string().trim().allow(""),
     createdOn: Joi.string().required(),
     todoAt: Joi.string().trim().required(),
-    categoryId: Joi.string().required(),
+    categoryId: Joi.ObjectId().required(),
     isComplete: Joi.string().trim(),
   });
 

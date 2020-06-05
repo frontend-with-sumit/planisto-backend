@@ -10,6 +10,7 @@ require("./startup/routes")(app);
 require("./startup/dbInit")();
 require("./startup/config")();
 require("./services/scheduler")();
+require("./startup/validations")();
 
 // PORT setting
 const port = process.env.PORT || config.get("PORT");

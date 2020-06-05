@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const auth = require("../middleware/auth");
-
+const validateObjectId = require("../middleware/validateObjectId");
 const { User } = require("../models/user");
 const { Category, validateCategory } = require("../models/category");
 
@@ -12,7 +12,7 @@ router.get("/", auth, async (req, res) => {
   res.send(categories);
 });
 
-router.get("/:id", auth, async (req, res) => {
+router.get("/:id", [auth, validateObjectId], async (req, res) => {
   const category = await Category.findById(req.params.id);
 
   if (!category)
@@ -50,7 +50,7 @@ router.post("/", auth, async (req, res) => {
   res.send(newCategory);
 });
 
-router.put("/:id", auth, async (req, res) => {
+router.put("/:id", [auth, validateObjectId], async (req, res) => {
   const { name, color } = req.body;
 
   const { error } = validateCategory(req.body);
@@ -70,7 +70,7 @@ router.put("/:id", auth, async (req, res) => {
   res.send(category);
 });
 
-router.delete("/:id", auth, async (req, res) => {
+router.delete("/:id", [auth, validateObjectId], async (req, res) => {
   const category = await Category.findByIdAndRemove(req.params.id);
 
   if (!category)
