@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const Joi = require("@hapi/joi");
+Joi.objectId = require("joi-objectid")(Joi);
 
 const categorySchema = new mongoose.Schema({
   name: {
@@ -57,7 +58,7 @@ function validateTodo(todo) {
     description: Joi.string().trim().allow(""),
     createdOn: Joi.string().required(),
     todoAt: Joi.string().trim().required(),
-    categoryId: Joi.ObjectId().required(),
+    categoryId: Joi.objectId().required(),
     isComplete: Joi.string().trim(),
   });
 
