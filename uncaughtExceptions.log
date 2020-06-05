@@ -795,3 +795,11 @@ Require stack:
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
     at Module.load (internal/modules/cjs/loader.js:811:32)
     at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+2020-06-05T14:37:30.155Z error: uncaughtException: alert is not defined
+ReferenceError: alert is not defined
+    at Job.job (C:\Users\Dumbo\Desktop\Node\todo-app\backend\services\scheduler.js:30:5)
+    at Job.invoke (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\node-schedule\lib\schedule.js:173:10)
+    at C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\node-schedule\lib\schedule.js:552:11
+    at Timeout._onTimeout (C:\Users\Dumbo\Desktop\Node\todo-app\backend\node_modules\node-schedule\lib\schedule.js:510:7)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)

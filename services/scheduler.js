@@ -21,12 +21,13 @@ function formatDate() {
 module.exports = function () {
   const rule = new schedule.RecurrenceRule();
   // rule.hour = 11;
-  rule.minute = 5;
+  rule.second = 30;
 
   schedule.scheduleJob(rule, async () => {
     // await Todo.deleteMany({
     //   createdOn: { $lte: formatDate() },
     // });
+    // console.log("task started");
     logger.info("Scheduled maintenance completed");
   });
 };
