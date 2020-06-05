@@ -19,7 +19,7 @@ function formatDate() {
 }
 
 module.exports = function () {
-  schedule.scheduleJob({ hour: 22, minute: 36 }, async () => {
+  schedule.scheduleJob({ hour: 23, minute: 59 }, async () => {
     await Todo.deleteMany({
       createdOn: { $lte: formatDate() },
     });
